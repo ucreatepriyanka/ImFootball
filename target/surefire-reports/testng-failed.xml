@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="aboutpage of cgsm(failed)">
+    <classes>
+      <class name="ucreate.com.ImFootball.Login.LoginTest">
+        <methods>
+          <include name="loginInvalidDetails5"/>
+          <include name="loginInvalidDetails6"/>
+          <include name="loginInvalidDeatils1"/>
+          <include name="loginInvalidDetails7"/>
+          <include name="loginwithFB"/>
+          <include name="loginInvalidDetails9"/>
+          <include name="loginInvalidDetails4"/>
+          <include name="loginValidDetails"/>
+          <include name="loginInvalidDetails8"/>
+          <include name="clickOnLoginButton"/>
+          <include name="loginInvalidDetails10"/>
+          <include name="tabOnLoginwithFacebook"/>
+          <include name="createAnAccount"/>
+          <include name="loginInvalidDetails11"/>
+          <include name="Signout"/>
+          <include name="loginInvalidDetails2"/>
+          <include name="loginInvalidDetails3"/>
+        </methods>
+      </class> <!-- ucreate.com.ImFootball.Login.LoginTest -->
+      <class name="ucreate.com.ImFootball.Utilities.BrowserInstance">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- ucreate.com.ImFootball.Utilities.BrowserInstance -->
+    </classes>
+  </test> <!-- aboutpage of cgsm(failed) -->
+</suite> <!-- Failed suite [Suite] -->

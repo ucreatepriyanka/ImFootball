@@ -1,0 +1,6 @@
+{ 	
+"AssertionMessage":
+		[ {"checkCreateAccountPageHeading":"Who do you support?"},
+		  {"checkEmailplaceholder":"Email"}
+		  ]
+		}

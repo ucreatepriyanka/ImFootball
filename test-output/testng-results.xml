@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="17" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="401863" started-at="2018-05-24T07:01:24Z" finished-at="2018-05-24T07:08:06Z">
+    <groups>
+    </groups>
+    <test name="aboutpage of cgsm" duration-ms="401863" started-at="2018-05-24T07:01:24Z" finished-at="2018-05-24T07:08:06Z">
+      <class name="ucreate.com.ImFootball.Utilities.BrowserInstance">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:ucreate.com.ImFootball.Utilities.BrowserInstance@62e136d3]" name="Setup" is-config="true" duration-ms="8515" started-at="2018-05-24T07:01:24Z" finished-at="2018-05-24T07:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+      </class> <!-- ucreate.com.ImFootball.Utilities.BrowserInstance -->
+      <class name="ucreate.com.ImFootball.Login.LoginTest">
+        <test-method status="PASS" signature="clickOnLoginButton()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="clickOnLoginButton" duration-ms="3268" started-at="2018-05-24T07:01:33Z" description="Click on Login button" finished-at="2018-05-24T07:01:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginButton -->
+        <test-method status="PASS" signature="loginInvalidDeatils1()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDeatils1" duration-ms="12694" started-at="2018-05-24T07:01:36Z" description="Login with invalid details - Email : &#039;Characters&#039;" finished-at="2018-05-24T07:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDeatils1 -->
+        <test-method status="PASS" signature="loginInvalidDetails2()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails2" duration-ms="23078" started-at="2018-05-24T07:01:49Z" description="Login with invalid details - Email: &#039;Special Charcaters" finished-at="2018-05-24T07:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails2 -->
+        <test-method status="PASS" signature="loginInvalidDetails3()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails3" duration-ms="23173" started-at="2018-05-24T07:02:12Z" description="Login with invalid details - Email : &#039;Numbers&#039;" finished-at="2018-05-24T07:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails3 -->
+        <test-method status="FAIL" signature="loginInvalidDetails4()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails4" duration-ms="24745" started-at="2018-05-24T07:02:35Z" description="Login with invalid details - Email : &#039;Invalid Format of Email ID&#039;" finished-at="2018-05-24T07:03:00Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'hp-All-Series', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-27-generic', java.version: '1.8.0_162'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement: {error=no such element, message=An element could not be located on the page using the given search parameters., stacktrace=NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidDriver.callee$0$0$ (/usr/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:69:13)
+    at tryCatch (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>}
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'hp-All-Series', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-27-generic', java.version: '1.8.0_162'
+Driver info: driver.version: AndroidDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:324)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at ucreate.com.ImFootball.Login.LoginPage.getValidationMessageOnPassword(LoginPage.java:72)
+at ucreate.com.ImFootball.Login.LoginTest.__CLR4_1_238wb8n64(LoginTest.java:93)
+at ucreate.com.ImFootball.Login.LoginTest.loginInvalidDetails4(LoginTest.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to org.openqa.selenium.WebElement
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+... 40 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails4 -->
+        <test-method status="PASS" signature="loginInvalidDetails5()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails5" duration-ms="19962" started-at="2018-05-24T07:03:00Z" description="Login with invalid details - Email : &#039;Combimation of Numbers ,Special charcaters and chracters" finished-at="2018-05-24T07:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails5 -->
+        <test-method status="PASS" signature="loginInvalidDetails6()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails6" duration-ms="23146" started-at="2018-05-24T07:03:20Z" description="Login with invalid details - Email : &#039;Invalid email Id &#039;" finished-at="2018-05-24T07:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails6 -->
+        <test-method status="PASS" signature="loginInvalidDetails7()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails7" duration-ms="20174" started-at="2018-05-24T07:03:43Z" description="Login with invalid details - Password : &#039;Adding captial letters only&#039;" finished-at="2018-05-24T07:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails7 -->
+        <test-method status="PASS" signature="loginInvalidDetails8()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails8" duration-ms="19781" started-at="2018-05-24T07:04:03Z" description="Login with invalid details - Password : &#039;Adding Numbers only&#039;" finished-at="2018-05-24T07:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails8 -->
+        <test-method status="PASS" signature="loginInvalidDetails9()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails9" duration-ms="19987" started-at="2018-05-24T07:04:23Z" description="Login with invalid details - Password : &#039;Adding combination of small letters, number and sepcial characters&#039;" finished-at="2018-05-24T07:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails9 -->
+        <test-method status="PASS" signature="loginInvalidDetails10()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails10" duration-ms="19932" started-at="2018-05-24T07:04:43Z" description="Login with invalid details - Password : &#039;Adding special characters only&#039;" finished-at="2018-05-24T07:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails10 -->
+        <test-method status="PASS" signature="loginInvalidDetails11()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginInvalidDetails11" duration-ms="19673" started-at="2018-05-24T07:05:03Z" description="Login with invalid details - Password : &#039;Adding password less than  8 characters and without numbers" finished-at="2018-05-24T07:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidDetails11 -->
+        <test-method status="PASS" signature="loginValidDetails()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginValidDetails" duration-ms="47359" started-at="2018-05-24T07:05:22Z" description="Login with valid details - Email : &#039;Valid Details&#039;" finished-at="2018-05-24T07:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidDetails -->
+        <test-method status="PASS" signature="Signout()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="Signout" duration-ms="6946" started-at="2018-05-24T07:06:10Z" description="signout" finished-at="2018-05-24T07:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signout -->
+        <test-method status="PASS" signature="tabOnLoginwithFacebook()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="tabOnLoginwithFacebook" duration-ms="3320" started-at="2018-05-24T07:06:17Z" description="Tab on &#039;Login with Facebook&#039; button" finished-at="2018-05-24T07:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabOnLoginwithFacebook -->
+        <test-method status="FAIL" signature="loginwithFB()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="loginwithFB" duration-ms="81914" started-at="2018-05-24T07:06:20Z" description="Adding FB Login creadentials" finished-at="2018-05-24T07:07:42Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@resource-id='u_0_1'] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //android.widget.Button[@resource-id='u_0_1'] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at ucreate.com.ImFootball.Login.LoginPage.AddcredentialsInFB(LoginPage.java:86)
+at ucreate.com.ImFootball.Login.LoginTest.__CLR4_1_27o788ea6(LoginTest.java:260)
+at ucreate.com.ImFootball.Login.LoginTest.loginwithFB(LoginTest.java:259)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.Button[@resource-id='u_0_1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'hp-All-Series', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-27-generic', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Optional.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithFB -->
+        <test-method status="FAIL" signature="createAnAccount()[pri:0, instance:ucreate.com.ImFootball.Login.LoginTest@c8e4bb0]" name="createAnAccount" duration-ms="24155" started-at="2018-05-24T07:07:42Z" description="tab on create an account button" finished-at="2018-05-24T07:08:06Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@resource-id='com.imfootball:id/btnLogin'] (tried for 24 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //android.widget.Button[@resource-id='com.imfootball:id/btnLogin'] (tried for 24 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+at ucreate.com.ImFootball.Utilities.CommonMethods.elementToBeClickableWait(CommonMethods.java:21)
+at ucreate.com.ImFootball.Home.HomePage.clickOnLoginButton(HomePage.java:25)
+at ucreate.com.ImFootball.Login.LoginTest.__CLR4_1_2eikygbab(LoginTest.java:269)
+at ucreate.com.ImFootball.Login.LoginTest.createAnAccount(LoginTest.java:267)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //android.widget.Button[@resource-id='com.imfootball:id/btnLogin']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'hp-All-Series', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.2.0-27-generic', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Optional.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnAccount -->
+      </class> <!-- ucreate.com.ImFootball.Login.LoginTest -->
+    </test> <!-- aboutpage of cgsm -->
+  </suite> <!-- Suite -->
+</testng-results>

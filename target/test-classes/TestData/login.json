@@ -1,0 +1,26 @@
+{
+
+"UserName":[{"username":"pri@gmail.com"},
+            {"invalidusername":"Test"},
+            {"usernamewithspecialcharacters":"^%$&%$&%&*^*^"},
+            {"usernamewithnumbers":"28367426"},
+            {"usernamewithinvalidformat1":"abcd@abcd.com"},
+            {"combination":"test@123987%$"},  
+            {"usernamewithinvalidformat2":"text@text.com"},
+            {"ucreatewithinvalidformat3":"text@text.test.com.in"}     
+           ],
+"Password":[{"password":"Kabir123"},
+            {"invalidpassword":"test"},
+            {"invalidpassword":"ERTYUIOPASD"},
+            {"invalidpassword":"12345678"},
+            {"invalidpassword":"dummy@12"},
+            {"invalidpassword":"#@$%%$^$"},
+            {"invalidpassword":"DUMMY"}],    
+"Assertions":[{"checkheading of live page ":"Live"},
+              {"check login button text":"LOG IN"},
+              {"check who do you support page heading":"Who do you support?"}],
+"ValidCredentials":[{"validusername":"jasmeenkaur@ucreate.co.in"},
+                      {"validpassword":"kabir123"}],
+"Validationmessage":[{"Validation message on Username":"Please enter a valid email"},
+                     {"validation message on password":"Your password must be a minimum of 8 characters and contain at least one capital letter and number."}]	  	
+}

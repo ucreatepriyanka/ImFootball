@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="aboutpage of cgsm">
+  <classes>
+  <class name="ucreate.com.ImFootball.Utilities.BrowserInstance"/>  
+  <class name="ucreate.com.ImFootball.Home.HomeTest">
+  <methods>
+  <include name="tabCreateAccountButton"></include>
+  <include name="tabOnLoginButton"></include> 
+  </methods>  </class>
+  </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

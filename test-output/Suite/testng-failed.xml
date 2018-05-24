@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="aboutpage of cgsm(failed)">
+    <classes>
+      <class name="ucreate.com.ImFootball.Login.LoginTest">
+        <methods>
+          <include name="loginwithFB"/>
+          <include name="createAnAccount"/>
+          <include name="loginInvalidDetails4"/>
+        </methods>
+      </class> <!-- ucreate.com.ImFootball.Login.LoginTest -->
+    </classes>
+  </test> <!-- aboutpage of cgsm(failed) -->
+</suite> <!-- Failed suite [Suite] -->

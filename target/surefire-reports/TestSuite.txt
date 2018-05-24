@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 17, Time elapsed: 0.604 sec <<< FAILURE! - in TestSuite
+Setup(ucreate.com.ImFootball.Utilities.BrowserInstance)  Time elapsed: 0.485 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.json.JsonOutput.write(Ljava/lang/Object;Ljava/lang/reflect/Type;)Lorg/openqa/selenium/json/JsonOutput;
+	at ucreate.com.ImFootball.Utilities.BrowserInstance.Setup(BrowserInstance.java:24)
+

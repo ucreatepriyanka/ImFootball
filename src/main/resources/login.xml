@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="aboutpage of cgsm">
+   <classes>
+  <class name="ucreate.com.ImFootball.Utilities.BrowserInstance"/>
+  <class name="ucreate.com.ImFootball.Login.LoginTest">
+  <methods>
+<include name="clickOnLoginButton"></include> <!-- click on login button --> 
+ <include name="loginInvalidDeatils1"></include><!-- Adding characters in Email text box -->
+ <include name="loginInvalidDetails2"></include><!-- Adding special characters in Email text box -->
+ <include name="loginInvalidDetails3"></include><!-- Adding numbers in Email text box -->
+ <include name="loginInvalidDetails4"></include><!-- Adding invalid format in Email text box -->
+  <include name="loginInvalidDetails5"></include><!--Adding combination of special characters, numbers and characters in Email text box  -->
+  <include name="loginInvalidDetails6"></include><!-- Adding invalid format of email in Email text box  -->
+ <include name="loginInvalidDetails7"></include><!-- Adding only Capital letters in Password text box  -->
+ <include name="loginInvalidDetails8"></include><!-- Adding only Numbers in Password text box   -->   
+ <include name="loginInvalidDetails9"></include><!-- Adding combination of small letters, special character and numbers in Password text box   -->
+  <include name="loginInvalidDetails10"></include><!-- Adding only special characters in Password text box   -->
+  <include name="loginInvalidDetails11"></include><!-- Adding less than 8 characters in Password text box  -->
+  <include name="loginValidDetails"></include> <!--Adding valid detail in Email text box  -->      
+ <include name="Signout"></include> 
+ <include name="tabOnLoginwithFacebook"></include>
+ <include name="loginwithFB"></include>
+ <include name="createAnAccount"></include>
+  </methods> 
+   </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!--  <include name="clickOnLoginButton"></include>--> <!-- click on login button --> 
+ <!-- <include name="loginInvalidDeatils1"></include>--> <!-- Adding characters in Email text box -->
+ <!-- <include name="loginInvalidDetails2"></include>--> <!-- Adding special characters in Email text box -->
+<!--  <include name="loginInvalidDetails3"></include>--> <!-- Adding numbers in Email text box -->
+<!--  <include name="loginInvalidDetails4"></include>--><!-- Adding invalid format in Email text box -->
+<!--  <include name="loginInvalidDetails5"></include>--><!--Adding combination of special characters, numbers and characters in Email text box  -->
+<!--  <include name="loginInvalidDetails6"></include>--><!-- Adding invalid format of email in Email text box  -->
+<!--  <include name="loginInvalidDetails7"></include>--><!-- Adding only Capital letters in Password text box  -->
+<!--  <include name="loginInvalidDetails8"></include>--><!-- Adding only Numbers in Password text box   -->   
+<!--  <include name="loginInvalidDetails9"></include>--><!-- Adding combination of small letters, special character and numbers in Password text box   -->
+<!--  <include name="loginInvalidDetails10"></include>--><!-- Adding only special characters in Password text box   -->
+<!--  <include name="loginInvalidDetails11"></include>--><!-- Adding less than 8 characters in Password text box  -->
+<!--  <include name="loginValidDetails"></include> --><!--Adding valid detail in Email text box  -->      
+<!--  <include name="Signout"></include>  -->
